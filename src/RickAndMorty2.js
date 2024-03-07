@@ -24,9 +24,7 @@ const CharacterList = () => {
 
     fetchCharacters();
 
-    // Cleanup function (optional)
     return () => {
-      // Cleanup code if needed
     };
   }, [currentPage, searchTerm]);
 
